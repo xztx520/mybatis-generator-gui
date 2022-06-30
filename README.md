@@ -33,12 +33,7 @@ mybatis-generator-gui是基于 [mybatis generator](http://www.mybatis.org/genera
 
 
 ### 启动本软件
-
-* 方法一：关注微信公众号“搬砖头也要有态度”，回复“GUI”获取下载链接
-    
-  ![image](https://user-images.githubusercontent.com/3505708/61360019-2893dc00-a8b0-11e9-8dc9-a020e997ab87.png)
-
-* 方法二: 自助构建
+* 方法1: 自助构建
 
   ```bash
   git clone https://github.com/zouzg/mybatis-generator-gui
@@ -48,11 +43,11 @@ mybatis-generator-gui是基于 [mybatis generator](http://www.mybatis.org/genera
   java -jar mybatis-generator-gui.jar
   ```
 
-* 方法三: IDE中运行
+* 方法2: IDE中运行
 
   Eclipse or IntelliJ IDEA中启动, 找到`com.zzg.mybatis.generator.MainUI`类并运行就可以了（主要你的IED运行的jdk版本是否符合要求）
 
-* 方法四：打包为本地原生应用，双击快捷方式即可启动，方便快捷
+* 方法3：打包为本地原生应用，双击快捷方式即可启动，方便快捷
 
   如果不想打包后的安装包logo为Java的灰色的茶杯，需要在pom文件里将对应操作系统平台的图标注释放开
 
